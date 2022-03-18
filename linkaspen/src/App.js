@@ -6,17 +6,17 @@ function App() {
     <div className="App">
         <h1>Ian Lockhart's LinkAspen!</h1>
         <img className="main" src='https://media-exp1.licdn.com/dms/image/D5635AQGdJkjMyLDA9g/profile-framedphoto-shrink_200_200/0/1638893979703?e=1647637200&v=beta&t=sB8HDWnOabOtD0dUpqWFcJnUzSqyWF8H97EdQ-HK3Xo'></img>
-        <div className='mainLinks'>
-          <a>Link 1</a>
-          <a>Link 2</a>
-          <a>Link 3</a>
-          <a>Link 4</a>
+        <div className='main-links-container'>
+          <a className='main-links'>Portfolio</a>
+          <a className='main-links'>Dota 2 Stat Tracker</a>
+          <a className='main-links'>OnlyJams</a>
+          <a className='main-links'>Culinary REACT-ions</a>
+          <a className='main-links'>Angular Shop</a>
         </div>
-        <div className='socials'>
-          <button>Link 1</button>
-          <button>Link 2</button>
-          <button>Link 3</button>
-          <button>Link 4</button>
+        <div className='socials-container'>
+          <a className='socials-links'>LinkedIn</a>
+          <a className='socials-links'>Github</a>
+          <a className='socials-links'>Facebook</a>
         </div>
     </div>
   );
