@@ -12,3 +12,12 @@
   display: flex;
   flex-direction: column;
 }
+
+.main-links {
+  text-decoration: none;
+  font-size: 3em;
+  padding: .5vmin;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 3px;
+}
