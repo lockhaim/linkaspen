@@ -14,9 +14,8 @@ function App() {
           <a className='main-links'>Angular Shop</a>
         </div>
         <div className='socials-container'>
-          <a className='socials-links'>LinkedIn</a>
-          <a className='socials-links'>Github</a>
-          <a className='socials-links'>Facebook</a>
+          <a src='https://www.linkedin.com/in/ian-lockhart-/' alt= className='socials-links'>LinkedIn</a>
+          <a src='github.com/lockhaim/' className='socials-links'>Github</a>
         </div>
     </div>
   );
